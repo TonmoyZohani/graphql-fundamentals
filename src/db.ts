@@ -110,3 +110,7 @@ const products = [
     category: "c003",
   },
 ];
+
+export const db = {
+  products,
+};
