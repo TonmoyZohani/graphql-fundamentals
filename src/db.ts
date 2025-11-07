@@ -54,17 +54,17 @@ const products = [
     onStock: false,
     categoryId: "c003",
   },
-  {
-    id: "p006",
-    name: "USB-C Charging Cable (2m)",
-    image: "https://example.com/images/usb-c-cable.jpg",
-    description:
-      "Durable nylon braided USB-C cable for fast charging and data transfer.",
-    price: 12.49,
-    quantity: 100,
-    onStock: true,
-    categoryId: "c005",
-  },
+  // {
+  //   id: "p006",
+  //   name: "USB-C Charging Cable (2m)",
+  //   image: "https://example.com/images/usb-c-cable.jpg",
+  //   description:
+  //     "Durable nylon braided USB-C cable for fast charging and data transfer.",
+  //   price: 12.49,
+  //   quantity: 100,
+  //   onStock: true,
+  //   categoryId: "c005",
+  // },
   {
     id: "p007",
     name: "Portable Bluetooth Speaker",
