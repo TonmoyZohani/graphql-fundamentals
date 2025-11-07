@@ -7,7 +7,7 @@ const products = [
         price: 79.99,
         quantity: 45,
         onStock: true,
-        category: "c001",
+        categoryId: "c001",
     },
     {
         id: "p002",
@@ -17,7 +17,7 @@ const products = [
         price: 59.5,
         quantity: 30,
         onStock: true,
-        category: "c002",
+        categoryId: "c002",
     },
     {
         id: "p003",
@@ -27,7 +27,7 @@ const products = [
         price: 99.99,
         quantity: 20,
         onStock: true,
-        category: "c003",
+        categoryId: "c003",
     },
     {
         id: "p004",
@@ -37,7 +37,7 @@ const products = [
         price: 329.0,
         quantity: 8,
         onStock: true,
-        category: "c004",
+        categoryId: "c004",
     },
     {
         id: "p005",
@@ -47,7 +47,7 @@ const products = [
         price: 25.99,
         quantity: 0,
         onStock: false,
-        category: "c003",
+        categoryId: "c003",
     },
     {
         id: "p006",
@@ -57,7 +57,7 @@ const products = [
         price: 12.49,
         quantity: 100,
         onStock: true,
-        category: "c005",
+        categoryId: "c005",
     },
     {
         id: "p007",
@@ -67,7 +67,7 @@ const products = [
         price: 45.0,
         quantity: 12,
         onStock: true,
-        category: "c006",
+        categoryId: "c006",
     },
     {
         id: "p008",
@@ -77,7 +77,7 @@ const products = [
         price: 18.99,
         quantity: 0,
         onStock: false,
-        category: "c005",
+        categoryId: "c005",
     },
     {
         id: "p009",
@@ -87,7 +87,7 @@ const products = [
         price: 34.99,
         quantity: 25,
         onStock: true,
-        category: "c007",
+        categoryId: "c007",
     },
     {
         id: "p010",
@@ -97,9 +97,19 @@ const products = [
         price: 22.0,
         quantity: 15,
         onStock: true,
-        category: "c003",
+        categoryId: "c003",
     },
+];
+const categories = [
+    { id: "c001", name: "Audio Devices" },
+    { id: "c002", name: "Wearables" },
+    { id: "c003", name: "Computer Accessories" },
+    { id: "c004", name: "Monitors & Displays" },
+    { id: "c005", name: "Cables & Chargers" },
+    { id: "c006", name: "Speakers" },
+    { id: "c007", name: "Office Accessories" },
 ];
 export const db = {
     products,
+    categories,
 };
